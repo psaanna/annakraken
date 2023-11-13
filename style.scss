@@ -1,0 +1,715 @@
+
+html {
+    background-color: #F8F8F8; 
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+     font-size: 16px;
+     margin: 0px;
+}
+ 
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+main {
+     margin-left: 80px;
+     margin-right: 80px;
+     padding-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+ 
+section {
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+ 
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    list-style-type: disc;
+    list-style-position: initial;
+}
+
+li::marker {
+    font-size: .5rem; /* Adjust the size as needed */
+}
+/*HEADINGS*/
+h1 {
+    margin-left: 60px;
+    padding-top: 220px;
+    font-size: 3.5rem;
+    font-family: 'roboto';
+    font-weight: 100;
+}
+
+.custom-font {
+    font-family: 'playfairdisplay'; /* Replace "YourFont" with the actual font you want to use */
+    font-weight: 800;
+}
+
+/* H2 */
+h2 {
+    font-size: 3rem;
+    font-family: 'playfairdisplay';
+    margin-top: 80px;
+}
+
+h2.projects-header {
+    margin-left: 7%;
+    padding-top: 250px;
+}
+
+h2.centered {
+    text-align: center;
+}
+h2.connect {
+    margin: 0px;
+}
+/* H2 */
+
+/* H3 */
+h3 {
+    font-size: 2rem;
+    font-family: 'playfairdisplay';
+}
+
+h3.centered{
+    text-align: center;
+}
+/* H3 */
+
+h4 {
+    font-family: 'playfairdisplay';
+    font-size: 1.5rem;
+    font-style: bold;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-family: 'roboto';
+    font-weight: 100;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.528px;
+}
+h5.header {
+    margin-left: 7%;
+}
+
+h6 {
+   font-family: 'Roboto', sans-serif; /* Include a generic font family as a fallback */
+   font-weight: 500; /* Set the font weight to bold */
+   font-size: 1.25rem;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 200%; /* 28.8px */
+    letter-spacing: -0.396px;
+    text-align: justify;
+}
+
+
+.header-project-xperienceab {
+    background-image: url("image/project-image-customer-journey.png");
+    background-size: cover ;
+    height: 720px;
+    margin-top: -80px;
+}
+ .main-header {
+     background-image: url("image/Landing-page-image-purple.png");
+     background-size: cover ;
+     background-position: top;
+     height: 700px;
+     margin-top: -30px;
+ }
+ 
+ /*NAVBAR*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-color: #131322;
+    opacity: 0.85;
+    padding: 10px;
+    padding-top: 30px;
+    font-family: 'roboto';
+    color: #ffffff;
+    z-index: 100; /* Ensures it appears above other content */
+  }
+  
+  .navbar img {
+    margin-left: 60px;
+    padding-top: 20px;
+    transition: transform 0.2s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .ul-navbar {
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 35px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 40px;
+  
+    a {
+      color: white;
+      text-decoration: none;
+  
+      &:hover {
+        color: #8489B6;
+      }
+    }
+  }
+ 
+ /*NAVBAR*/
+ 
+ .arrow-h1-landing-page {
+     margin-left: 420px;
+ }
+
+ .arrow-image {
+     text-align: center;
+     padding-top: 80px;
+ }
+ 
+ 
+ /* LINES */
+ .hr-projects {
+     margin-top: -30px;
+     margin-left: -80px;
+     margin-bottom: 20px;
+ }
+ .centered-line {
+     margin-top: -35px;
+     margin-bottom: -20px;
+ }
+ 
+ .centered-line-img {
+     margin-top: -30px;
+     margin-bottom: 50px;
+ }
+
+ /* LINES */
+ 
+ 
+ /* CONTAINERS LANDING PAGE*/
+ .container-project {
+    background-color: white;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    transition: transform 0.2s;
+}
+
+.container-project:hover {
+    box-shadow: 0px 5.05px 20.2px 0px rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
+}
+
+.container-project h3 {
+    margin: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.container-project h5 {
+    margin: 50px;
+    margin-top: 60px;
+}
+
+.container-project a {
+    color: black;
+    text-decoration: none;
+}
+ 
+ 
+ .container-about-me {
+     background-color: white;
+     height: 350px;
+     margin-top: 50px;
+     padding: 40px;
+     border-radius: 20px;
+     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.10);
+     display: flex;
+     gap: 30px;
+     transition: transform 0.2s;
+ }
+ 
+ .container-about-me a {
+     text-decoration: none;
+     color: black;
+ }
+ .container-about-me:hover {
+     box-shadow: 0px 5.05px 20.2px 0px rgba(0, 0, 0, 0.25);
+     transform: scale(1.02);
+ }
+ 
+ .p-arrow {
+     display: flex;
+     width: 110px;
+     height: 35px;
+     padding: 0px 570px 0px 40px;
+     justify-content: center;
+     align-items: center;
+ }
+ .about-me-p-arrow {
+     display: flex;
+     width: 110px;
+     height: 35px;
+     padding: 65px 0px 0px 0px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+ }
+ /* CONTAINERS LANDING PAGE*/
+ 
+ 
+ 
+ /*PROJECT OVERVIEW*/
+ .project-overview {
+     display: flex;
+     align-items: center;
+     gap: 6px;
+     margin-bottom: -50px;
+ }
+ 
+ .container-project-overview {
+     background-color: white;
+     padding: 0px 30px 10px 30px;
+     margin-top: 20px;
+     border-radius: 20px;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     display: flex;
+     gap: 50px;
+ }
+
+ .column-flex-left {
+     flex: 1 1 1000px;
+ }
+
+ .column-flex-right {
+    flex: 1 1 850px;
+}
+
+.list-overview {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.flex-ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    gap: 20px;
+}
+ 
+ .items-overview {
+     display: flex;
+     flex-direction: column;
+ }
+ /*PROJECT OVERVIEW*/
+ 
+ 
+ /*WORKING AGILE*/
+ .categories-agile {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 2%;
+ }
+ 
+ .items-working-agile {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 24%;
+     margin: 10px; /* Add margin to the entire article to control the gap around it */
+     padding: 10px; /* Add padding to the entire article to control the gap around it */
+ }
+ 
+ .items-working-agile img {
+     margin: 5px; /* Remove any margin around the image */
+     padding: 0; /* Remove any padding around the image */
+ }
+ 
+ .items-working-agile h4 {
+     margin: 5px; /* Adjust the margin to control the gap above and below the heading */
+     padding: 0; /* Remove any padding around the heading */
+ }
+ 
+ .items-working-agile ul {
+     margin: 18px; /* Adjust the margin to control the gap above and below the list */
+     padding: 0; /* Remove any padding around the list */
+ }
+ 
+ .items-working-agile li {
+     margin: 10px; /* Adjust the margin to control the gap between list items */
+     padding: 0; /* Remove any padding around the list items */
+ }
+ 
+ .images-agile {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 7%;
+     margin-top: 10px;
+ }
+
+ /*WORKING AGILE*/
+ 
+ /*SURVEY & PERSONA*/
+ .centered-images {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 7%;
+     margin-top: 40px;
+ }
+ /*SURVEY & PERSONA*/
+ 
+ 
+
+ /* USER OBSERVATIONS*/
+
+.observations-container {
+    display: flex;
+    gap: 8%
+}
+
+.observations-text {
+    flex: 1 1 400px;
+}
+
+/*SLIDESHOW*/
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 280px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 45px;
+  height: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10%;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 10%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  font-family: 'roboto';
+  color: black;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font-family: 'roboto';
+  color: rgb(216, 216, 216);
+  font-size: 1rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+ /*CREATE CUSTOMER JOURNEY*/
+ .container-create-customerjourney {
+     display: flex;
+     gap: 55px;
+     margin-bottom: 50px;
+ }
+ /*CREATE CUSTOMER JOURNEY*/
+ 
+ /*WHAT I'VE LEARNED*/
+ .what-i-learned {
+     display: flex;
+     justify-content: center; /* Center horizontally */
+     align-items: center; /* Center vertically */
+     flex-direction: column;
+     border-radius: 20px;
+     opacity: .8;
+     border: 0.5px solid #000;
+     background: rgba(217, 217, 240, 0.50);
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     padding: 20px;
+     margin-top: 150px;
+     margin-bottom: 100px;
+ }
+ 
+ .header-light-bulb {
+     display: inline-flex;
+     align-items: center;
+     gap: 10px;
+     text-align: center;
+ }
+ 
+ .what-i-learned-flex-2text {
+     flex: 1 1 550px;
+     gap: 30px;
+ }
+ .what-i-learned-flex-1text {
+    flex: 1 1 500px;
+ }
+ 
+ .what-i-learned-flex {
+     display: flex;
+     gap: 30px;
+ }
+
+ @media (max-width:700px) {
+    .what-i-learned-flex {
+        display: flex;
+        flex-direction: column;
+    }
+ }
+ /*WHAT I'VE LEARNED*/
+ 
+ 
+ /* OTHER PROJECTS CONTAINERS */
+
+ @media (max-width: 700px) {
+    .other-projects {
+        display: flex;
+        flex-direction: column;
+    }
+ }
+ 
+.other-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-top: -20px;
+    margin-bottom: 150px;
+    text-decoration: none;
+}
+
+.other-projects a {
+    text-decoration: none;
+    color: black;
+}
+/* Style the container with a background image */
+.container {
+    background-image: url('image/Mockup-small-vasttrafik.png'); /* Replace 'your-image.jpg' with the image path */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Set the desired height for your container */
+    width: 300px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-smatrollen {
+    background-image: url('image/mockup-small-smatrollen.png'); /* Replace 'your-image.jpg' with the image path */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Set the desired height for your container */
+    width: 300px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Style the white rectangle */
+.content {
+    background-color: rgba(255, 255, 255, 0.90);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+    height: 22%; 
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    overflow: hidden; /* Hide overflow content */
+    transition: height 0.3s; /* Add a transition for smooth height changes */
+}
+
+                /* Style the h4 and paragraph text */
+.content h4 {
+    margin: 0px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.h4-arrow {
+    padding-top: 15px;
+    display: flex;
+    gap: 50%;
+}
+.h4-arrow img{
+    float: right;
+}
+
+p.projects-container {
+    margin: 0px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 160%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    opacity: 0; /* Initially hide the paragraph text */
+    transition: opacity 0.3s; /* Add a transition for opacity change */
+}
+
+/* Add hover effect to show the paragraph and adjust the height of the white rectangle */
+.container:hover .content {
+    height: 54%; /* Let the height expand to fit the content */
+}
+
+.container-smatrollen:hover .content {
+    height: 45%; /* Let the height expand to fit the content */
+}
+
+.container:hover p {
+    opacity: 1; /* Show the paragraph text on hover */
+}
+
+.container-smatrollen:hover p {
+    opacity: 1; /* Show the paragraph text on hover */
+}
+
+ /* OTHER PROJECTS CONTAINERS */
+ 
+ /*ABOUT PAGE*/
+
+ .about-style {
+     margin-top: 180px;
+ }
+ .flex {
+     display: flex;
+     gap: 50px;
+ }
+ 
+ .flex img {
+     background-size: contain;   
+     border-radius: 20px;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ .cv-image {
+     display: flex;
+     justify-content: center;
+ }
+ .cv-image img{
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ 
+ }
+ /*ABOUT PAGE*/
+ 
+ 
+ 
+ /* FOOTER (USED NESTING)*/
+ footer {
+    margin-top: 50px;
+  
+    .lets-connect {
+      text-align: center;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  
+    a {
+      text-decoration: none;
+      margin: 10px; // Add some spacing between the links and images
+    }
+  
+    img {
+      margin-top: -20px;
+      transition: transform 0.2s; // Add a smooth transition for the hover effect
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  body.smooth-scrolling {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling in Safari */
+  }
+
+ /* END FOOTER*/
+
